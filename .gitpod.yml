@@ -1,6 +1,7 @@
-image: jelaniwoods/appdev2021-refactoring-msm-queries
+image: jelaniwoods/appdev2021-refactoring-msm-queries@sha256:60851dc56210545bbf4ca67b53ba3567f97060be308490bde62a0532e6b8dee1
 
 tasks:
+  - command: bundle install
   - init: bin/setup
 ports:
   - port: 3000
